@@ -1,0 +1,60 @@
+.Todo, .Todo div input {
+	border-radius:999px;
+	font-family: 'Roboto', sans-serif;
+	height:75px;
+	padding:0;
+	margin:0;
+}
+
+.Todo:hover{
+	background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+	color:#fff;
+}
+
+.Todo:hover > .TodoIcon {
+	display:block;
+}
+
+.Todo h3{
+	display:inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+	font-size:24px;
+	text-align:center;
+	cursor:pointer;
+	position:absolute;
+	left:0;
+	right:0;
+}
+
+.TodoIcon {
+	font-size:25px;
+/*	margin-top:25px;*/
+	display:none;
+	float:right;
+	margin-right:15px;
+	color:#fff;
+	cursor: pointer;
+	position:relative;
+	z-index:999;
+	right:10px;
+	top:25px;
+}
+.TodoIcon:last-of-type {
+	margin-right:10px;
+}
+
+.Todo div input {
+	box-sizing:border-box;
+	font-weight:300;
+	padding:15px;
+	margin-top:3px;
+	width:294px;
+	height:69px;
+	outline:0;
+	border:0;
+	position:absolute;
+	z-index:99999;
+	left:3px;
+	font-size:24px;
+}

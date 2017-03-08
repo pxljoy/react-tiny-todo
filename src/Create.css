@@ -1,0 +1,43 @@
+.Create {
+	display:inline-block;
+	background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+	width:202px;
+	height:36px;
+	transition: all 0.25s ease-in-out;
+	border-radius:50px;
+}
+
+.Create input{
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+	width:196px;
+	height:26px;
+	font-size:24px;
+	margin-top:3px;
+	border: 0px solid transparent;
+	outline: 0;
+	border-radius:50px;
+	box-sizing:border-box;
+	padding:15px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.Add {
+	background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+	width:50px;
+	height:50px;
+	color:#fff;
+	border-radius:999px;
+	font-size:25px;
+	line-height:50px;
+	text-align:center;
+	margin:0 auto;
+	margin-top:50px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  	cursor:pointer;
+}
+.Add:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
